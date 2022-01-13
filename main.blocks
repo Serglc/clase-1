@@ -1,1 +1,18 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="qmG@t$DTq2De?*w,D#;?">mySprite</variable></variables><block type="pxt-on-start" id="L/{f~O1vx^-;3l%Nh?hX" x="0" y="0"><statement name="HANDLER"><block type="spritedestroy" id="igsD!CJ3bZ5@?a^Ytey~"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><value name="sprite"><block type="variables_get" id="[8Jkcq/{wK|Rf9bA^J:P"><field name="VAR" id="qmG@t$DTq2De?*w,D#;?">mySprite</field></block></value></block></statement></block></xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="qmG@t$DTq2De?*w,D#;?">mySprite</variable><variable type="KIND_SpriteKind" id="~u%fda}UYlC$0Rg.U+u4">Player</variable><variable type="KIND_SpriteKind" id="9PeP-Pn;}L_w8Fm{K,sL">Projectile</variable><variable type="KIND_SpriteKind" id="1?BJ1hq5P@}OORj@Qqie">Food</variable><variable type="KIND_SpriteKind" id="T_q`WK}e|VVxq~lZ/Kz7">Enemy</variable></variables><block type="pxt-on-start" id="L/{f~O1vx^-;3l%Nh?hX" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="rD5#17TX)_k-tqrC9t85"><field name="VAR" id="qmG@t$DTq2De?*w,D#;?">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="tV/2;Vy8.{1a~%{Kcadg"><value name="img"><shadow type="screen_image_picker" id="Ts(K!B|kF8K(9+.c^cah"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"Ts(K!B|kF8K(9+.c^cah"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="s9%F-H=?u.B^)a0ijDf-"><field name="MEMBER">Player</field></shadow></value></block></value></block></statement></block></xml>
